@@ -27,7 +27,7 @@ int main(){
     for(int i = n; i >= pos; i--){
         arr[i] = arr[i - 1];
     }
-    arr[pos - 1] = value;
+    arr[pos] = value;
 
     printf("Updated array: ");
     for(int i = 0; i < n + 1; i++){
