@@ -18,6 +18,6 @@ int main(){
     int b;
     cout<<"Enter 2nd number: ";
     cin>>b;
-    cout<<gcd(a,b);
+    cout<<gcd(a,b)<<endl;
 
 }
