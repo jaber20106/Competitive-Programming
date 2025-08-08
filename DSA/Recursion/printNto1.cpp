@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+#include<string>
+#include<iostream>
+using namespace std;
+int print(int n){
+    if(n == 0) return 1;
+    cout<<n<<endl;
+    print(n-1);
+}
+
+int main(){
+    
+    print(6);
+
+    return 0;
+}
