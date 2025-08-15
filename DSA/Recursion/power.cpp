@@ -15,7 +15,7 @@ int main(){
     int b;
     cout<<"Enter exponent: ";
     cin>>b;
-    cout<<power(a,b);
+    cout<<power(a,b)<<endl;
 
     return 0;
 }
